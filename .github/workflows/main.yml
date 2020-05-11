@@ -21,3 +21,5 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
         node -v
+    - name: Download Something
+      run: wget 'https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=zh-CN'
